@@ -16,11 +16,11 @@ Eg: <code> react-init-class -f SampleComponent -p '~/Desktop/Test' </code>
 
 This will create a SampleComponent.js file in ~/Desktop/Test/SampleComponent.js.
 
-SampleComponent.js file will be created as below:
+<code>SampleComponent.js</code> file will be created as below:
 
-<code>
+    
     import React, { Component as ReactComponent } from 'react';
-  
+    
     class SampleComponent extends ReactComponent {
         constructor(props) {
             super(props);
@@ -35,4 +35,4 @@ SampleComponent.js file will be created as below:
     }
 
     export default SampleComponent;
-</code>
+    
